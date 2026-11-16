@@ -1,4 +1,5 @@
 
+
 #include "mouse_hal.h"
 #include <stdio.h>
 #include <string.h>
@@ -498,3 +499,7 @@ void solver_run(void) //this function acts as the main function that controls th
     mm_log("M1 run complete: explored, reached goal, and returned home.");
     dump_map();
 }
+
+/*
+This Phase has been mostly made by Tareq (Algorithm Lead) and Oghaid (Motion Lead), the rest of the group members responsibility is to fully understand the functionality of the code
+*/
